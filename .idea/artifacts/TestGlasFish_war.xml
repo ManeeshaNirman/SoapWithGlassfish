@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="TestGlasFish:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>TestGlasFish</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="TestGlasFish-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="TestGlasFish:war exploded" />
+    </root>
+  </artifact>
+</component>
